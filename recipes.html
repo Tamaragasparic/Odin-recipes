@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8/">
+        <title>My Favorite Recipes</title>
+        <style>
+            h1{
+                background-color: rgb(61, 141, 78);
+                color: white; 
+                line-height: 2em;
+                text-align: center;
+                font-size: 50px;
+                }
+            #header{
+                text-align: center;
+                font-size: 1.5em;
+            }
+            #nav a {
+                background-color: rgb(29, 104, 56);
+                color: white;
+                line-height: 3em;
+            }
+            #nav ul{ list-style: none; }
+            #nav li{display: inline; margin-left: 10%;}
+            #nav, #navig{text-align: center;}
+            ul{
+                list-style-type: none;
+                margin-right: 8em;
+                font-size:20px;
+            }
+            #nav{background-color:rgb(29, 104, 56);}
+            .ing{
+                list-style-type: circle;
+                margin-left: 5%;
+                font-size: 1.4rem;
+                line-height: 1.5em;
+               }
+            #pancakes, #brownies, #rolls{
+                font-size: 2.5rem;
+                margin-left: 3%;
+                margin-top: 3%;
+                line-height: 7rem;
+                color:white;
+            }
+            article{background-color: rgb(103, 160, 100);}
+            .description{margin-left: 3%; font-size: 1.4rem; line-height: 5rem; font-weight: 600; }
+            .back{
+            background-color: aliceblue;
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-bottom: 0%;
+            }
+            .img{
+                margin-left: 5%;
+                border: 22px dashed darkseagreen;
+                padding: 5px;
+                 }
+            h3{margin-left: 2%; font-size: 1.7rem;}
+            ol{margin-left: 3%; margin-right: 3%; font-size: 1.4rem; line-height: 3rem;}
+            h4{line-height: 4rem; margin-left: 4%; font-size: 1.2rem;}
+            footer{ background-color: rgb(29, 104, 56); line-height: 4rem; color:white; font-size: 1.3rem;}
+            #foot{ margin-left: 5%; margin-bottom: 3%;}
+
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>My Favorite Recipes</h1> 
+            <p id="header">In this site you can find very delicious food recipes. Enjoy!</p>
+            
+            <h2 id="navig">Recipes you can find here:</h2>
+            <nav>
+            <div id="nav">
+               <ul>
+                <li><a href="#pancakes">Pancakes</a></li>
+                <li><a href="#brownies">Brownies</a></li>
+                <li><a href="#rolls">Cinnamon rolls</a></li>
+               </ul>
+            </div>
+            </nav>
+        </header>
+        
+        <article>
+        <h2 id="pancakes">Recipe 1 - Pancakes</h2>
+        <div class="back">   <p class="description">Pancakes - my favorite desert</p>
+        <img src="https://static.onecms.io/wp-content/uploads/sites/43/2022/02/16/21014-Good-old-Fashioned-Pancakes-mfs_001.jpg"
+         alt="A photo of pancakes" width="420" abbr title="Pancakes" class="img">
+        <h3>List of ingredients:</h3>
+        <ul class="ing">
+            <li>flour</li>
+            <li>baking powder</li>
+            <li>sugar</li>
+            <li>salt</li>
+            <li>milk</li>
+            <li>butter</li>
+            <li>egg</li>
+        </ul>
+        <h3>Steps:</h3>
+        <ol>
+            <li>Sift the dry ingredients together.</li>
+            <li>Make a well, then add the wet ingredients. Stir to combine.</li>
+            <li>Scoop the batter onto a hot griddle or pan.</li>
+            <li>Cook for two to three minutes, then flip.</li>
+            <li>Continue cooking until brown on both sides.</li>
+        </ol>
+        <h4><a href="https://www.allrecipes.com/recipe/45396/easy-pancakes/" target="_blank">Click here</a> for more details.</h4>
+        </div>
+        
+        <h2 id="brownies">Recipe 2 - Brownies</h2>
+        <div class="back">
+            <p class="description">This is an easy recipe for begginers in baking</p>
+          
+        <img src="https://img.buzzfeed.com/video-api-prod/assets/fafe8090b4f3434f80c33b6e4ce40e24/BFV21539_BestFudgyBrownies-ThumbB1080.jpg?resize=1200:*"
+         alt="A photo of brownies" width="420" abbr tittle="Brownies" class="img">
+        <h3>Ingredients:</h3>
+        <ul class="ing">
+            <li>2 eggs</li>
+            <li>water</li>
+            <li>powdered sugar</li>
+            <li>cocoa powder</li>
+            <li>oil</li>
+            <li>vanilla extract</li>
+        </ul>    
+        <h3>Steps:</h3>
+        <ol>
+            <li>First, mix together the dry and wet ingredients in two separate bowls. </li>
+            <li>Combine the sugar, flour, powdered sugar, cocoa powder, chocolate chips, and salt in a medium bowl.</li>
+            <li>Then, whisk together the eggs, olive oil, and water in a large one.</li>
+            <li>Next, combine the wet and dry ingredients. </li>
+            <li>Then, pour the batter into an 8X8 inch baking pan lined with parchment paper. </li>
+            <li>Transfer the pan to a 325-degree oven and bake for 40 to 45 minutes.</li>
+        </ol>
+        </div>
+        
+        <h2 id="rolls">Recipe 3 - Cinnamon rolls</h2>
+        <div class="back">
+             <p class="description">Only for cinnamon lovers</p>
+       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_KPfox_XQ0H3ScqxwZaWB-r22VrKSaHub1g&usqp=CAU"
+         alt="A photo of cinnamon rolls" width="420" abbr title="Cinnamon rolls" class="img">
+         <h3>Ingredients:</h3>
+         <ul class="ing">
+            <li>milk</li>
+            <li>sugar</li>
+            <li>yeast</li>
+            <li>butter</li>
+            <li>egg+egg yolk</li>
+            <li>flour</li>
+            <li>cinnamon</li>
+            <li>salt</li>
+            <li>vanilla</li>
+         </ul>
+         <h3>Steps:</h3>
+         <ol>
+            <li>Warm milk to around 110 degrees F. I like to do this by placing milk in a microwave safe bowl and microwaving it for 40-45 seconds.</li>
+            <li>Transfer warm milk to the bowl of an electric mixer and sprinkle yeast on top. Add in sugar, egg, egg yolk and melted butter. Mix until well combined.</li>
+            <li>Next stir in flour and salt with a wooden spoon until a dough begins to form.</li>
+            <li>Place dough hook on stand mixer and knead dough on medium speed for 8 minutes. Dough should form into a nice ball and be slightly sticky</li>
+            <li>Transfer dough ball to a well-oiled bowl, cover with plastic wrap and a warm towel. Allow dough to rise for 1 hour to 1 ½ hours, or until doubled in size.</li>
+            <li>Spread softened butter over dough, leaving a ¼ inch margin at the far side of the dough.</li>
+            <li>Tightly roll dough up, starting from the 9-inch side and place seam side down making sure to seal the edges of the dough as best you can.</li>
+            <li>Preheat oven to 350 degrees F. Remove plastic wrap and towel and bake cinnamon rolls for 20-25 minutes or until just slightly golden brown on the edges.</li>
+         </ol>
+        </div>
+        </article>
+     
+         <footer>
+            <div id="foot">
+            <p>All rights reserved.</p>
+            <details>
+                <summary>Contact</summary>
+                <p>email</p>
+                <p>number</p>
+                <p>adress</p>
+            </details>
+            </div>
+         </footer>
+        
+    </body>
+</html>
+
